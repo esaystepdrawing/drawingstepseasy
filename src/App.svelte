@@ -2,7 +2,7 @@
 <script>
 	import Navbar from "./Components/Navbar/Navbar.svelte";
 	import Banner from "./Components/Banner/Banner.svelte";
-	import Services from "./Components/Services/Services.svelte";
+	import Drawings from "./Components/Drawings/Drawings.svelte";
 	import About from "./Components/About/About.svelte";
 	import Testimonials from "./Components/Testimonials/Testimonials.svelte";
 	import Social from "./Components/Social/Social.svelte";
@@ -15,7 +15,7 @@
   <!-- Banner -->
   <Banner bannerData={DATA.BANNER_DATA} } />
   <!-- Services -->
-  <Services serviceData={DATA.SERVICE_DATA} />
+  <Drawings serviceData={DATA.SERVICE_DATA} />
   <!-- About -->
   <About aboutData={DATA.ABOUT_DATA} />
   <!-- Testimonials -->

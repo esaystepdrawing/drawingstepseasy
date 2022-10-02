@@ -3,39 +3,57 @@ const HEADER = "DrawingStepsEasy";
 
 const NAVBAR_DATA = [
   { id: 1, url: "/", label: "Home" },
-  { id: 2, url: "#services", label: "Services" },
+  { id: 2, url: "#drawings", label: "Drawings" },
   { id: 3, url: "#about-us", label: "About us" },
   { id: 4, url: "#testimonials", label: "Testimonials" },
   { id: 5, url: "#footer", label: "Contacts" }
 ];
 const BANNER_DATA = {
-  HEADING: "Go digital with nixalar",
+  HEADING: "Drawing with Family and have fun. Drawing made simple following Steps Easy",
   DECRIPTION:
-    "Nixalar can help you skyrocket the ROI of your marketing campaign without having to spend tons of money or time to assemble an in-house team.",
+    "Drawing Steps Easy is a family fun activity website; encouraging all ages to draw and share.",
   TUTORIAL_URL:
-    "https://www.thinkwithgoogle.com/intl/en-gb/marketing-resources/programmatic/google-digital-academy/",
+    "https://www.youtube.com/channel/UCBugY7Y3eYsOZPVnZTys9aw/videos",
   WATCH_TUTORIAL: "Watch Tutorials"
 };
 const SERVICE_DATA = {
-  HEADING: "Our Services",
-  ALL_SERVICES: "All Services",
+  HEADING: "Easy Step Drawing Category",
+  ALL_SERVICES: "Click to see All Drawings",
   SERVICE_LIST: [
     {
-      LABEL: "Search Engine Optimisation",
+      LABEL: "Halloween Drawings",
       DESCRIPTION:
-        "To customise the content, technical functionality and scope of your website so that your pages show for a specific set of keyword at the top of a search engine list. In the end, the goal is to attract traffic to your website when they are searching for goods, services or business-related information.",
+        "Hand drawn Halloween traditional symbols. Doodle style illustrations, carved pumpkin, spider webs, witch on a broom, bat, zombie hands, skulls, grim reaper, magic potion pot.",
       URL: "images/service1.png"
     },
     {
-      LABEL: "Content Marketing Strategy",
+      LABEL: "Christmas Drawings",
       DESCRIPTION:
-        "It is tough but well worth the effort to create clever material that is not promotional in nature, but rather educates and inspires. It lets them see you as a reliable source of information by delivering content that is meaningful to your audience.",
+        "Easy Christmas Drawings. Easy Christmas drawings for kids can be achieved in any of the simple drawing list.",
       URL: "images/service2.png"
     },
     {
-      LABEL: "Develop Social Media Strategy",
+      LABEL: "Character Drawings",
       DESCRIPTION:
-        "Many People rely on social networks to discover, research, and educate themselves about a brand before engaging with that organization. The more your audience wants to engage with your content, the more likely it is that they will want to share it.",
+        "Hand drawn cartoon character for kids to follow along and can be done using paper and pencil. Family Fun drawing",
+      URL: "images/service3.png"
+    },
+    {
+      LABEL: "Animal Drawings",
+      DESCRIPTION:
+        "Hand drawn Halloween traditional symbols. Doodle style illustrations, carved pumpkin, spider webs, witch on a broom, bat, zombie hands, skulls, grim reaper, magic potion pot.",
+      URL: "images/service1.png"
+    },
+    {
+      LABEL: "Holiday Drawings",
+      DESCRIPTION:
+        "Easy Christmas Drawings. Easy Christmas drawings for kids can be achieved in any of the simple drawing list.",
+      URL: "images/service2.png"
+    },
+    {
+      LABEL: "Gadgets Drawings",
+      DESCRIPTION:
+        "Hand drawn cartoon character for kids to follow along and can be done using paper and pencil. Family Fun drawing",
       URL: "images/service3.png"
     }
   ]
@@ -46,14 +64,13 @@ const ABOUT_DATA = {
   TITLE: "Why we're different",
   IMAGE_URL: "images/network.png",
   WHY_CHOOSE_US_LIST: [
-    "We provides Cost-Effective Digital Marketing than Others.",
-    "High customer statisfaction and experience.",
-    "Marketing efficiency and quick time to value.",
-    "Clear & transparent fee structure.",
-    "We provides Marketing automation which is an integral platform that ties all of your digital marketing together.",
-    "A strong desire to establish long lasting business partnerships.",
-    "Provide digital marketing to mobile consumer.",
-    "We provides wide range to services in reasonable prices"
+   "DrawingStepsEasy is a family fun event",
+   "Every age can draw and show case their art",
+   "Drawing helps people feel more productive and fills us with positive feelings of others",
+   "Helps and improves 'Visualization'",
+   "Help and improves 'Coordination'",
+   "Boosts creative thinking.",
+   "Enhances Observation. People like drawing because it teaches them to rewire their thinking"
   ]
 };
 const TESTIMONIAL_DATA = {
@@ -61,17 +78,17 @@ const TESTIMONIAL_DATA = {
   TESTIMONIAL_LIST: [
     {
       DESCRIPTION:
-        "Nixalar has made a huge difference to our business with his good work and knowledge of SEO and business to business marketing techniques. Our search engine rankings are better than ever and we are getting more people contacting us thanks to Jomer’s knowledge and hard work.",
+        "Drawings are simple and clear. Hand drawn drawings gives the feel of how it would look. Kids do not have to worry about straight line; it is easy to follow along. Complex drawings are made simple and easy to follow.",
       IMAGE_URL: "images/user1.jpg",
       NAME: "Julia hawkins",
-      DESIGNATION: "Co-founder at ABC"
+      DESIGNATION: "Elementary School Teacher"
     },
     {
       DESCRIPTION:
-        "Nixalar and his team have provided us with a comprehensive, fast and well planned digital marketing strategy that has yielded great results in terms of content, SEO, Social Media. His team are a pleasure to work with, as well as being fast to respond and adapt to the needs of your brand.",
+        "Very impressive drawings and easy to follow along. There are many categories to pick and draw. I use it at school for kids to follow along and draw. Helps bring attention and kids enjoying choosing the category they best like and draw. It is a fun filled class when all heads are down drawing and following easy step",
       IMAGE_URL: "images/user2.jpg",
       NAME: "John Smith",
-      DESIGNATION: "Co-founder at xyz"
+      DESIGNATION: "Elementary School Teacher"
     }
   ]
 };
@@ -90,12 +107,12 @@ const SOCIAL_DATA = {
 
 const FOOTER_DATA = {
   DESCRIPTION:
-    "We are typically focused on result-based maketing in the digital world. Also, we evaluate your brand’s needs and develop a powerful strategy that maximizes profits.",
+    "We are typically focused on making complex drawings into easy step. Allowing kids to follow along and ensure they love the platform.",
   CONTACT_DETAILS: {
     HEADING: "Contact us",
-    ADDRESS: "La trobe street docklands, Melbourne",
-    MOBILE: "+1 61234567890",
-    EMAIL: "nixalar@gmail.com"
+    ADDRESS: "Franklin, WI 53132",
+    MOBILE: "We prefer email",
+    EMAIL: "info@easystepdrawing.com"
   },
   SUBSCRIBE_NEWSLETTER: "Subscribe newsletter",
   SUBSCRIBE: "Subscribe"
