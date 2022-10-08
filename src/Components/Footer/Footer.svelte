@@ -8,7 +8,9 @@
       CONTACT_DETAILS,
       SUBSCRIBE_SOCIAL,
       SUBSCRIBE,
-      SUBSCRIBE_TIKTOK
+      SUBSCRIBE_TIKTOK,
+      SUBSCRIBE_YTUBE,
+      SUBSCRIBE_TIKTUBE
     } = footerData;
     const { HEADING, ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
   </script>
@@ -45,7 +47,7 @@
             type="email"
             class="form-control round-border"
             placeholder="Your Email" /> -->
-          <button type="button" class="btn btn-outline-light round-border">
+          <button type="button" class="btn btn-outline-light round-border" >
             {SUBSCRIBE}
           </button>
           <button type="button" class="btn btn-outline-light round-border">

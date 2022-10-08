@@ -22,43 +22,68 @@ const CATEGORY_DATA = {
       id:2, 
       name:"Baby", 
       image: "images/category/baby.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=animal"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=baby"
     },
     {
       id:3, 
       name:"Beach", 
       image: "images/category/beach.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=animal"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=beach"
     },
     {
       id:4, 
       name:"Building", 
       image: "images/category/buildings.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=animal"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=building"
     },
-    {id:5, name:"Carnival", image: "images/category/carnival.jpg"},
-    {id:6, name:"Character", image: "images/category/characters.jpg"},
-    {id:7, name:"Chritsmas", image: "images/category/christmas.jpg"},
-    {id:8, name:"Holiday", image: "images/category/holiday.jpg"},
-    {id:9, name:"Farm", image: "images/category/farmer.jpg"},
-    {id:10, name:"Medical", image: "images/category/firstaid.jpg"},
-    {id:11, name:"Food", image: "images/category/food.jpg"},
-    {id:12, name:"Furniture", image: "images/category/furniture.jpg"},
-    {id:13, name:"Gadget", image: "images/category/gadget.jpg"},
-    {id:14, name:"Halloween", image: "images/category/halloween.jpg"},
-    {id:15, name:"Instrument", image: "images/category/instruments.jpg"},
-    {id:16, name:"Monument", image: "images/category/monument.jpg"},
-    {id:17, name:"Nature", image: "images/category/nature.jpg"},
-    {id:18, name:"Party", image: "images/category/party.jpg"},
-    {id:19, name:"Random", image: "images/category/random.jpg"},
-    {id:20, name:"School Supplies", image: "images/category/school.jpg"},
-    {id:21, name:"Space", image: "images/category/space.jpg"},
-    {id:22, name:"Sport", image: "images/category/sports.jpg"},
-    {id:23, name:"St. Patrick Day", image: "images/category/st.patrick.jpg"},
-    {id:24, name:"Tool", image: "images/category/tools.jpg"},
-    {id:25, name:"Toy", image: "images/category/toy.jpg"},
-    {id:26, name:"Valentine", image: "images/category/valentine.jpg"},
-    {id:27, name:"Vehicle", image: "images/category/vehicle.jpg"}
+    {id:5, name:"Carnival", 
+    image: "images/category/carnival.jpg",
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=carnival"
+    },
+    {id:6, name:"Character", image: "images/category/characters.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=character"},
+    {id:7, name:"Chritsmas", image: "images/category/christmas.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=christmas"},
+    {id:8, name:"Holiday", image: "images/category/holiday.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=holiday"},
+    {id:9, name:"Farm", image: "images/category/farmer.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=farmer"},
+    {id:10, name:"Medical", image: "images/category/firstaid.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=firstaid"},
+    {id:11, name:"Food", image: "images/category/food.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=food"},
+    {id:12, name:"Furniture", image: "images/category/furniture.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=furniture"},
+    {id:13, name:"Gadget", image: "images/category/gadget.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=gadget"},
+    {id:14, name:"Halloween", image: "images/category/halloween.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=halloween"},
+    {id:15, name:"Instrument", image: "images/category/instruments.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=instruments"},
+    {id:16, name:"Monument", image: "images/category/monument.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=monument"},
+    {id:17, name:"Nature", image: "images/category/nature.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=nature"},
+    {id:18, name:"Party", image: "images/category/party.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=party"},
+    {id:19, name:"Random", image: "images/category/random.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=random"},
+    {id:20, name:"School Supplies", image: "images/category/school.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=school"},
+    {id:21, name:"Space", image: "images/category/space.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=space"},
+    {id:22, name:"Sport", image: "images/category/sports.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=sport"},
+    {id:23, name:"St. Patrick Day", image: "images/category/st.patrick.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=st.patrick"},
+    {id:24, name:"Tool", image: "images/category/tools.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=tool"},
+    {id:25, name:"Toy", image: "images/category/toy.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=toy"},
+    {id:26, name:"Valentine", image: "images/category/valentine.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=valentine"},
+    {id:27, name:"Vehicle", image: "images/category/vehicle.jpg",
+    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=vehicle"}
   ]
 };
 
@@ -170,7 +195,9 @@ const FOOTER_DATA = {
   },
   SUBSCRIBE_SOCIAL: "Subscribe Social Channel",
   SUBSCRIBE: "YouTube",
-  SUBSCRIBE_TIKTOK: "TikTok"
+  SUBSCRIBE_YTUBE: "https://www.youtube.com/channel/UCBugY7Y3eYsOZPVnZTys9aw",
+  SUBSCRIBE_TIKTOK: "TikTok",
+  SUBSCRIBE_TIKTUBE: "https://www.tiktok.com/@easystepdrawing?lang=en"
 };
 
 const MOCK_DATA = {

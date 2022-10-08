@@ -1,5 +1,5 @@
 <script>
-    let visible = true;
+    let visible = false;
     function toggleVisible() {
         visible = !visible
     }
@@ -18,7 +18,7 @@
           <a
             href="{list.url}"
             target="_blank">
-            <img src={list.image} alt={list.name} class="service-img" on:click|preventDefault={toggleVisible} />
+            <img src={list.image} alt={list.name} class="service-img" />
           </a>
         </div>
         {/each}
@@ -41,7 +41,7 @@
     .service-img {
       width: auto;
       height: auto;
-      margin-top: 20px;
+      margin-top: 30px;
     }
   
     .title {
@@ -74,6 +74,6 @@
     @media screen and (max-width:560px){
     h2{
         font-size:25px !important;
-    }  
+    }   
 }
  </style>
