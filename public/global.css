@@ -64,7 +64,7 @@ button:focus {
 
 /**public/global.css**/
 :root {
-	--gradient: linear-gradient(90deg, #0072ff 0%, #00d4ff 100%);
+	--gradient: linear-gradient(90deg, #7c7e80 0%, #00d4ff 100%);
 	--light: #fff;
 	--grey: #f8f9fa;
   }

@@ -1,44 +1,47 @@
-<!--src/Components/Drawings/Drawings.svelte-->
-
 <script>
-    export let serviceData = {};
-    const { HEADING, ALL_SERVICES, SERVICE_LIST } = serviceData;
-  </script>
-  
-  <!------------------------------------------->
+    let visible = true;
+    function toggleVisible() {
+        visible = !visible
+    }
+    export let categoryData = {};
+    const { HEADING, ALLCAT } = categoryData;
+</script>
+<!------------------------------------------->
   <!----------------MARKUP----------------------->
   <!------------------------------------------->
   <section id="drawings" class="section">
     <div class="container text-center">
-      <h2 class="title">{HEADING}</h2>
-      <div class="row section-body">
-        {#each SERVICE_LIST as list}
-          <div class="col-md-4 service">
-            <img src={list.URL} alt={list.LABEL} class="service-img" />
-            <h4>{list.LABEL}</h4>
-            <p>{list.DESCRIPTION}</p>
-          </div>
+      <h2 class="title text-center">{HEADING}</h2>
+      <div class="row mx-5">
+        {#each ALLCAT as list}
+        <div class="col-md-3">
+          <a
+            href="{list.url}"
+            target="_blank">
+            <img src={list.image} alt={list.name} class="service-img" on:click|preventDefault={toggleVisible} />
+          </a>
+        </div>
         {/each}
+        {#if visible}
+            <p>
+                This text will hide.
+            </p>
+        {/if}
       </div>
-      <buttom class="btn btn-primary round-border main-bgcolor">
-        {ALL_SERVICES}
-      </buttom>
     </div>
   </section>
   <!------------------------------------------->
   <!----------------STYLE----------------------->
   <!------------------------------------------->
   <style>
-    .service-img {
-      width: 200px;
-      height: 200px;
-      margin-top: 20px;
+    a:hover {
+      text-decoration: none;
     }
-  
-    .service h4 {
-      padding: 5px;
-      margin-top: 25px;
-      text-transform: uppercase;
+
+    .service-img {
+      width: auto;
+      height: auto;
+      margin-top: 20px;
     }
   
     .title {
@@ -68,15 +71,9 @@
       transform: translateY(14px);
     }
   
-    section .btn-primary {
-      box-shadow: none;
-      padding: 8px 25px;
-      border: none;
-    }
-
     @media screen and (max-width:560px){
     h2{
         font-size:25px !important;
     }  
 }
-  </style>
+ </style>

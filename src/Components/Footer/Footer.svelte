@@ -6,8 +6,9 @@
     const {
       DESCRIPTION,
       CONTACT_DETAILS,
-      SUBSCRIBE_NEWSLETTER,
-      SUBSCRIBE
+      SUBSCRIBE_SOCIAL,
+      SUBSCRIBE,
+      SUBSCRIBE_TIKTOK
     } = footerData;
     const { HEADING, ADDRESS, MOBILE, EMAIL } = CONTACT_DETAILS;
   </script>
@@ -39,13 +40,16 @@
           </p>
         </div>
         <div class="col-md-4 footer-box">
-          <p class="footer-title">{SUBSCRIBE_NEWSLETTER}</p>
-          <input
+          <p class="footer-title">{SUBSCRIBE_SOCIAL}</p>
+          <!-- <input
             type="email"
             class="form-control round-border"
-            placeholder="Your Email" />
+            placeholder="Your Email" /> -->
           <button type="button" class="btn btn-outline-light round-border">
             {SUBSCRIBE}
+          </button>
+          <button type="button" class="btn btn-outline-light round-border">
+            {SUBSCRIBE_TIKTOK}
           </button>
         </div>
       </div>

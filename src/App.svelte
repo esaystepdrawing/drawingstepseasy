@@ -8,14 +8,17 @@
 	import Social from "./Components/Social/Social.svelte";
 	import Footer from "./Components/Footer/Footer.svelte";
 	import DATA from "./Data/data";
-  </script>
+  import Category from "./Components/Category/Category.svelte";
+</script>
   
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
   <!-- Banner -->
   <Banner bannerData={DATA.BANNER_DATA} } />
+  <!-- Category -->
+  <Category categoryData={DATA.CATEGORY_DATA} />
   <!-- Services -->
-  <Drawings serviceData={DATA.SERVICE_DATA} />
+  <!-- <Drawings serviceData={DATA.SERVICE_DATA} /> -->
   <!-- About -->
   <About aboutData={DATA.ABOUT_DATA} />
   <!-- Testimonials -->
