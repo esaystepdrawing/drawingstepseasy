@@ -16,34 +16,51 @@ const CATEGORY_DATA = {
       id:1, 
       name:"Animal", 
       image: "images/category/animal.jpg", 
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=animal"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=animal",
+      alternatename: "Easy step by step Animal Drawings"
     },
     {
       id:2, 
       name:"Baby", 
       image: "images/category/baby.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=baby"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=baby",
+      alternatename: "Easy step by step Baby Drawings"
     },
     {
       id:3, 
       name:"Beach", 
       image: "images/category/beach.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=beach"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=beach",
+      alternatename: "Easy step by step Beach Drawings"
     },
     {
       id:4, 
       name:"Building", 
       image: "images/category/buildings.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=building"
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=building",
+      alternatename: "Easy step by step Building Drawings"
     },
-    {id:5, name:"Carnival", 
-    image: "images/category/carnival.jpg",
-      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=carnival"
+    {
+      id:5, 
+      name:"Carnival", 
+      image: "images/category/carnival.jpg",
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=carnival",
+      alternatename: "Easy step by step Carnival Drawings"
     },
-    {id:6, name:"Character", image: "images/category/characters.jpg",
-    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=character"},
-    {id:7, name:"Chritsmas", image: "images/category/christmas.jpg",
-    url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=christmas"},
+    {
+      id:6, 
+      name:"Character", 
+      image: "images/category/characters.jpg",
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=character",
+      alternatename: "Easy step by step Character Drawings"
+    },
+    {
+      id:7, 
+      name:"Chritsmas", 
+      image: "images/category/christmas.jpg",
+      url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=christmas",
+      alternatename: "Easy step by step Chritsmas Drawings"
+    },
     {id:8, name:"Holiday", image: "images/category/holiday.jpg",
     url: "https://www.easystepdrawing.com/categorydetail.html?easystepdrawing=holiday"},
     {id:9, name:"Farm", image: "images/category/farmer.jpg",
