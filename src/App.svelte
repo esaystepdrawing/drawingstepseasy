@@ -14,7 +14,7 @@
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
   <!-- Banner -->
-  <Banner bannerData={DATA.BANNER_DATA} } />
+  <Banner bannerData={DATA.CAROUSEL_DATA} } />
   <!-- Category -->
   <Category categoryData={DATA.CATEGORY_DATA} />
   <!-- Services -->

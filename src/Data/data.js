@@ -9,6 +9,33 @@ const NAVBAR_DATA = [
   { id: 5, url: "#footer", label: "Contacts" }
 ];
 
+const CAROUSEL_DATA = [
+  {
+    id: 1,
+    cimage: "images/carousel/easy-step-drawing-book-vol-1.jpg",
+    ctext: "Easy Step Drawing Book - Volume 1 ",
+    curl: "https://www.amazon.com/dp/B09MHX9CK5"
+  },
+  {
+    id: 2,
+    cimage: "images/carousel/easy-step-drawing-book-vol-2.png",
+    ctext: "Easy Step Drawing Book - Volume 2",
+    curl: "https://www.amazon.com/dp/B094TGS1XF"
+  },
+  {
+    id: 3,
+    cimage: "images/carousel/easy-step-character-drawing-book.png",
+    ctext: "Easy Step Character Drawing Book ",
+    curl: "https://www.amazon.com/dp/B09MGW3YYM"
+  },
+  {
+    id: 4,
+    cimage: "images/carousel/easy-step-drawing-book-vol-2.png",
+    ctext: "Easy Step Drawing Videos",
+    curl: "https://www.youtube.com/channel/UCBugY7Y3eYsOZPVnZTys9aw/videos"
+  }
+]
+
 const CATEGORY_DATA = {
   HEADING: "Step By Step easy Drawing by Category",
   ALLCAT: [
@@ -226,6 +253,7 @@ const MOCK_DATA = {
   TESTIMONIAL_DATA,
   SOCIAL_DATA,
   FOOTER_DATA,
-  CATEGORY_DATA
+  CATEGORY_DATA,
+  CAROUSEL_DATA
 };
 export default MOCK_DATA;
