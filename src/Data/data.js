@@ -12,28 +12,31 @@ const NAVBAR_DATA = [
 const CAROUSEL_DATA = [
   {
     id: 1,
-    cimage: "images/carousel/easy-step-drawing-book-vol-1.jpg",
+    path: "images/carousel/easy-step-character-drawing-book.png",
     ctext: "Easy Step Drawing Book - Volume 1 ",
-    curl: "https://www.amazon.com/dp/B09MHX9CK5"
+    curll: "https://www.amazon.com/dp/B09MHX9CK5",
+    bgcolor: "blue"
   },
   {
     id: 2,
-    cimage: "images/carousel/easy-step-drawing-book-vol-2.png",
+    path: "images/carousel/easy-step-drawing-book-vol-2.png",
     ctext: "Easy Step Drawing Book - Volume 2",
-    curl: "https://www.amazon.com/dp/B094TGS1XF"
+    curll: "https://www.amazon.com/dp/B094TGS1XF",
+    bgcolor: "yellow"
   },
   {
     id: 3,
-    cimage: "images/carousel/easy-step-character-drawing-book.png",
+    path: "images/carousel/easy-step-character-drawing-book.png",
     ctext: "Easy Step Character Drawing Book ",
-    curl: "https://www.amazon.com/dp/B09MGW3YYM"
-  },
-  {
-    id: 4,
-    cimage: "images/carousel/easy-step-drawing-book-vol-2.png",
-    ctext: "Easy Step Drawing Videos",
-    curl: "https://www.youtube.com/channel/UCBugY7Y3eYsOZPVnZTys9aw/videos"
+    curll: "https://www.amazon.com/dp/B09MGW3YYM",
+    bgcolor: "black"
   }
+  // {
+  //   id: 4,
+  //   cimage: "images/carousel/easy-step-drawing-book-vol-2.png",
+  //   ctext: "Easy Step Drawing Videos",
+  //   curl: "https://www.youtube.com/channel/UCBugY7Y3eYsOZPVnZTys9aw/videos"
+  // }
 ]
 
 const CATEGORY_DATA = {

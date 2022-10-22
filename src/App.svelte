@@ -9,12 +9,19 @@
 	import Footer from "./Components/Footer/Footer.svelte";
 	import DATA from "./Data/data";
   import Category from "./Components/Category/Category.svelte";
+  import Carousel from "./Components/Carousel/Carousel.svelte";
+
 </script>
   
   <!-- Navbar -->
   <Navbar navlists={DATA.NAVBAR_DATA} header={DATA.HEADER} />
   <!-- Banner -->
-  <Banner bannerData={DATA.CAROUSEL_DATA} } />
+  <!-- <Banner bannerData={DATA.CAROUSEL_DATA} } /> -->
+  <Carousel images={DATA.CAROUSEL_DATA} imageWidth={250} imageSpacing={'30px'}>
+    <span slot="left-control"></span>
+    <span slot="right-control"></span>
+  </Carousel>
+  
   <!-- Category -->
   <Category categoryData={DATA.CATEGORY_DATA} />
   <!-- Services -->
